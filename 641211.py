@@ -1,7 +1,7 @@
 # Leere Liste für Tupel erstellen
 gueltige_tupel = []
 x = 0
-# Alle möglichen Kombinationen von Werten für a, b, c, d, e probieren (optimierung vorherige Varible +1 als Minimum: >59000 Versuche -> 126 Versuche)
+# Alle möglichen Kombinationen von Werten für a, b, c, d, e probieren
 for a in range(1, 10):
     for b in range(a+1, 10):
         for c in range(b+1, 10):
